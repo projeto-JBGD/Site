@@ -15,7 +15,7 @@ header {
 }
 
 .parte-inferior {
-    background-color: rgb(151, 138, 226);
+    background-color: rgb(129, 113, 218);
     padding: 16px; 
 }
 
@@ -27,11 +27,11 @@ header {
 .bto {
     margin: 20px;
     color: white;
-    font-size: larger;
+    font-size: 14px;
     font-family: pixel;
 }
 
 .bto:hover {
     color: rgb(12, 1, 29);
-
+    transition: 1s;
 }
