@@ -15,8 +15,9 @@ header {
 }
 
 .parte-inferior {
-    background-color: rgb(88, 73, 172);
-    padding: 14px; 
+    background-color: rgb(76, 63, 146);
+    padding: 10px; 
+    height: 43px;
     display: flex;
     justify-content: center;
 } 
@@ -44,4 +45,15 @@ header {
 .bto:hover {
     color: rgb(12, 1, 29);
     transition: 1s;
+}
+
+/*Sessão do catalogo*/
+.catalogosec {
+    padding-top: 163px;
+}
+
+.areacatalogo {
+    width: 1920px;
+    height: 750px;
+    background-image: url(Imagens/Teste.png);
 }
