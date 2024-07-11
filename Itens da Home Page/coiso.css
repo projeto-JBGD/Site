@@ -15,11 +15,12 @@ header {
 }
 
 .parte-inferior {
-    background-color: rgb(76, 63, 146);
+    background-color: rgb(18, 9, 68);
     padding: 10px; 
     height: 43px;
     display: flex;
     justify-content: center;
+    box-shadow: 1px 9px 40px black;
 } 
 
 .cogumelo {
@@ -43,17 +44,25 @@ header {
 }
 
 .bto:hover {
-    color: rgb(12, 1, 29);
+    color: rgb(196, 165, 241);
     transition: 1s;
 }
 
 /*Sessão do catalogo*/
 .catalogosec {
     padding-top: 163px;
+    align-items: center;
 }
 
 .areacatalogo {
     width: 1920px;
     height: 750px;
-    background-image: url(Imagens/Teste.png);
+    text-align: center;
+    background-image: url(Imagens/Seçãocatálogo.png);
+}
+
+.confira {
+    padding: 0%;
+    margin-top: 400px;
+    width: 370px;
 }
