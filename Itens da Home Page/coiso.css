@@ -20,7 +20,7 @@ header {
     height: 43px;
     display: flex;
     justify-content: center;
-    box-shadow: 1px 9px 40px black;
+    box-shadow: 1px 7px 70px black;
 } 
 
 .cogumelo {
@@ -65,4 +65,11 @@ header {
     padding: 0%;
     margin-top: 400px;
     width: 370px;
+}
+
+/*Sessão de cadastro*/
+.areacadastro {
+    width: 1920px;
+    height: 750px;
+    background-image: url(Imagens/teste\ 1\ seção\ de\ cadastro.png);
 }
