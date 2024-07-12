@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body, html {
+    overflow-x: hidden !important;
+    }
+
 /* Cabeçalho */
 header {
     position: fixed;
@@ -48,28 +52,37 @@ header {
     transition: 1s;
 }
 
+main {
+    justify-content: center;
+}
+
 /*Sessão do catalogo*/
 .catalogosec {
     padding-top: 163px;
-    align-items: center;
 }
 
 .areacatalogo {
     width: 1920px;
     height: 750px;
-    text-align: center;
-    background-image: url(Imagens/Seçãocatálogo.png);
+    background-image: url(Imagens/fundoseccatalogo.png);
 }
 
 .confira {
     padding: 0%;
-    margin-top: 400px;
-    width: 370px;
+    margin-top: 340px;
+    margin-left: 150px;
+    width: 500px;
 }
 
 /*Sessão de cadastro*/
 .areacadastro {
     width: 1920px;
     height: 750px;
-    background-image: url(Imagens/teste\ 1\ seção\ de\ cadastro.png);
+    text-align: center;
+    background-image: url(Imagens/fundoseccadastro.png);
+}
+
+.cadastro {
+    margin-top: 400px;
+    width: 270px;
 }
