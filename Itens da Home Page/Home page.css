@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body, html {
     overflow-x: hidden !important;
     }
@@ -64,8 +65,8 @@ main {
 .areacatalogo {
     width: 1920px;
     height: 750px;
-    background-image: url(Imagens/fundoseccatalogo.png);
-    background-color: rgb(35, 15, 71);
+    background-image: url(Imagens/testeaaa.png);
+    background-color: rgb(57, 11, 83);
 }
 
 .confira {
@@ -95,8 +96,34 @@ main {
     background-image: url(Imagens/fundosecfornecedores.png);
 }
 
+.confiraaqui {
+    margin-left: 1000px;
+    margin-top: 290px;
+    width: 560px;
+}
+
 /*Rodapé*/
-.rodape {
-    padding: 15px;
+footer {
+    width: 100%;
     background-color: rgb(18, 9, 68);
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redeicons {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    margin-top: 8px;
+    filter: invert(); 
+}
+
+.copyright {
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+    padding-left: 10px;
 }
