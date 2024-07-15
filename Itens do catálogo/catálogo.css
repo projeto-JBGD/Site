@@ -1,0 +1,21 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden !important;
+}
+
+/*Cabeçalho*/
+.partesuperior {
+    background-color: rgb(18, 9, 68);
+    height: 70px;
+    width: 1920px;
+}
+
+.parteinferior {
+    background-color: rgb(59, 47, 133);
+    height: 20px;
+}
