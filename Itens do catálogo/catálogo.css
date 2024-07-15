@@ -11,11 +11,91 @@ body, html {
 /*Cabeçalho*/
 .partesuperior {
     background-color: rgb(18, 9, 68);
-    height: 70px;
+    height: 90px;
     width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    
+}
+
+.btologin {
+    height: 32x;
+    width: 32px;
+    margin-top: 5px;
+}
+
+.kart {
+    height: 32px;
+    width: 32px;
+    margin-top: 5px;
+}
+
+.logo {
+    margin-right: 50px;
+}
+
+.JBGD {
+    width: 115px;
+    margin-top: 5px;
+}
+
+.pesquisa {
+    margin-right: 125px;
+    background-color: rgb(200, 201, 245);
+    border-radius: 10px;
+    width: 370px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 7px 1px black;
+}
+
+.txtbuscar {
+    background-color: transparent;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    height: 32px;
+    width: 191px;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+::-webkit-input-placeholder {
+    color: black;
+}
+
+.lupa {
+    width: 22px;
+    margin-top: 1px;
+    margin-left: 145px;
 }
 
 .parteinferior {
     background-color: rgb(59, 47, 133);
-    height: 20px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {   /* Nova fonte */
+    font-family: pixel;
+    src: url(Fontes/dogica.ttf); 
+}
+
+.bto {
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: pixel;
 }
